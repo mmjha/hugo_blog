@@ -1,6 +1,6 @@
-logoText = "Zzo"
+logoText = "hJ"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "hJ BloG"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -56,14 +56,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
+myname = "hJ"
+email = "mmjh9258@gmail.com"
 whoami = "Web Developer"
 bioImageUrl = ""
 useGravatar = false
 location = "Seoul, Korea"
 organization = "Hugo"
-link = "https://zzossig.io/ko"
+link = "https://mmjha.github.io/ko"
 
 # sidebar
 enableBio = true
@@ -157,11 +157,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:mmjh9258@gmail.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = ""
+  twitter = ""
+  github = "https://github.com/mmjha"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
