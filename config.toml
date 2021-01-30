@@ -14,7 +14,7 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "hJ BloG"
 
 [params]
-	subtitle = "hJ, BloG  [github.com/mmjha](https://github.com/mmjha)"
+	subtitle = "hJ, BloG [github.com/mmjha](https://github.com/mmjha)"
 
 	# Optional 64x64 avatar image.
 	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
@@ -23,6 +23,9 @@ disqusShortname = "hJ BloG"
 	disableDisqusTypes = ["page"]
 	
 	featherIconsCDN = true
+
+	# Content types to disable comment on.
+	isComment = true
 
 	mode = "auto" # "dark" or "auto"
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.

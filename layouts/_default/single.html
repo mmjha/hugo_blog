@@ -4,7 +4,6 @@
 <body>
 	<div class="container wrapper">
 		{{ partial "head.html" . }}
-
 		<div class="post">
 			<div class="post-header">
 				{{ if ne .Date.Year 1 }}
@@ -17,9 +16,10 @@
 				{{ end }}
 				<div class="matter">
 					<h1 class="title">{{ .Title }}</h1>
+					<h5>{{.Params.description}}</h6>
 				</div>
 			</div>
-					
+			<hr>
 			<div class="markdown">
 				{{ .Content }}
 			</div>
@@ -35,6 +35,11 @@
 					{{ end }}
 				{{ end }}
 			</div>
+			<hr>
+			{{ if and (eq .Site.Params.isComment true) }}
+			{{ if and (isset .Params "comment") (eq .Params.comment false) }}
+			{{ else }}
+			<h6>댓글</h6>
 			<script src="https://utteranc.es/client.js"
 				repo="mmjha/blog-comments"
 				issue-term="pathname"
@@ -42,7 +47,10 @@
 				crossorigin="anonymous"
 				async>
 			</script>
+			{{ end }}
+			{{ end }}
 <!--
+			theme={{ if eq .Site.Params.mode "dark" }} "photon-dark" {{ else }} "boxy-light" {{end}}
 			{{- if .Site.DisqusShortname -}}
 			{{- $.Scratch.Set "isDisqus" true -}}
 
