@@ -17,7 +17,7 @@ disqusShortname = "hJ BloG"
 	subtitle = "hJ, BloG [github.com/mmjha](https://github.com/mmjha)"
 
 	# Optional 64x64 avatar image.
-	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+	avatar = "https://cdn.pixabay.com/photo/2016/09/27/05/35/letter-1697604_1280.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
